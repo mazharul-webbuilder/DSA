@@ -73,11 +73,11 @@ $queue->enqueue(1);
 $queue->enqueue(2);
 $queue->enqueue(3);
 
-echo "Front of the queue: " . $queue->peek() . "\n";
-echo "Queue size: " . $queue->size() . "\n";
+echo "Front of the queue: " . $queue->peek() . PHP_EOL;
+echo "Queue size: " . $queue->size() .  PHP_EOL;
 
 while (!$queue->isEmpty()) {
-    echo "Dequeued element: " . $queue->dequeue() . "\n";
+    echo "Dequeued element: " . $queue->dequeue() .  PHP_EOL;
 }
 
-echo "Is queue empty? " . ($queue->isEmpty() ? "Yes" : "No") . "\n";
+echo "Is queue empty? " . ($queue->isEmpty() ? "Yes" : "No") . PHP_EOL;
