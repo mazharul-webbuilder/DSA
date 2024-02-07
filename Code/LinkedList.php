@@ -58,6 +58,7 @@ class LinkedList {
     }
 }
 
+
 // Example usage:
 $linkedList = new LinkedList();
 
