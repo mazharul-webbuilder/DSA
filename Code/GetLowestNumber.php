@@ -6,7 +6,7 @@ class GetLowestNumber
     {
         try
         {
-            $lowestNumber = $numbers[count($numbers) - 1];
+            $lowestNumber = $numbers[0];
             foreach ($numbers as $number) {
                 $lowestNumber = min($number, $lowestNumber);
             }
@@ -18,4 +18,4 @@ class GetLowestNumber
 }
 
 $obj = new GetLowestNumber();
-echo $obj->getLowest([10,34,64,2,6,13, 3]);
+echo $obj->getLowest([10,34,64,2,6,13, 3,1]);
