@@ -5,9 +5,11 @@ require 'LinkedList.php';
 
 $linkedList = new LinkedList();
 
-$linkedList->insertIntoFirst(10);
-$linkedList->insertIntoFirst(10);
-$linkedList->insertIntoFirst(10);
-$linkedList->insertIntoEnd(20);
+$linkedList->insertIntoFirst(1);
+$linkedList->insertIntoFirst(2);
+$linkedList->insertIntoFirst(3);
+$linkedList->insertIntoEnd(4);
+$linkedList->deleteAt(5);
+$linkedList->insertAt(6, 2);
 
 $linkedList->display();
